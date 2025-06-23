@@ -75,7 +75,7 @@
 &trans     &trans        &trans          &trans        &trans                &trans                 &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
             
-            display-name = "SYMBOLS"
+            display-name = "SYMBOLS";
             sensor-bindings = <&scroll_encoder>;
         };
 
