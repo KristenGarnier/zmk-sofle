@@ -117,7 +117,7 @@
 &trans  &trans  &trans  &trans  &kp KP_N0  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            display-name = "NUMPAD"
+            display-name = "NUMPAD";
         };
     };
 };
