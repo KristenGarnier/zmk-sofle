@@ -1,6 +1,6 @@
 file_format: "1"
 id: eyelash_sofle
-name: Eyelash Sofle
+name: Kristen Voyager
 url: https://github.com/a741725193/zmk-sofle
 type: board
 arch: arm
@@ -13,3 +13,4 @@ outputs:
 siblings:
   - eyelash_sofle_left
   - eyelash_sofle_right
+
