@@ -1,5 +1,5 @@
 identifier: eyelash_sofle
-name: Eyelash Sofle
+name: Kristen Voyager
 url: https://github.com/a741725193/zmk-sofle
 type: mcu
 arch: arm
@@ -18,3 +18,4 @@ supported:
   - gpio
   - i2c
   - spi
+
