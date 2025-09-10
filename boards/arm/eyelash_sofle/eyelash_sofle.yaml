@@ -1,7 +1,6 @@
 identifier: eyelash_sofle
-name: Kristen Voyager Portable
+name: NomadiK GO
 url: https://github.com/a741725193/zmk-sofle
-type: mcu
 arch: arm
 toolchain:
   - zephyr
