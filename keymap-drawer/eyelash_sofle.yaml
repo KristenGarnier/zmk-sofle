@@ -28,17 +28,17 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - A
-  - S
-  - D
-  - F
+  - '&homerow_mod LSHFT A'
+  - '&homerow_mod LEFT_ALT S'
+  - '&homerow_mod LEFT_GUI D'
+  - '&homerow_mod LCTRL F'
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - '&homerow_mod RCTRL J'
+  - '&homerow_mod RGUI K'
+  - '&homerow_mod RALT L'
+  - '&homerow_mod RSHIFT SEMI'
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
