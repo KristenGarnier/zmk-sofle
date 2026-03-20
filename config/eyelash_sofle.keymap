@@ -37,15 +37,15 @@
         flavor = "tap-preferred";
         quick-tap-ms = <0>;
         bindings = <&kp>, <&kp>;
-        display-name = "HOMEROW MOD"
+        display-name = "HOMEROW MOD";
       };
-    };
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <100>;
+      scroll_encoder: scroll_encoder {
+          compatible = "zmk,behavior-sensor-rotate";
+          #sensor-binding-cells = <0>;
+          bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+          tap-ms = <100>;
+      };
     };
 
     behaviors {
