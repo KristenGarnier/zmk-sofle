@@ -180,9 +180,9 @@
         layer_1 {
             bindings = <
                 &trans        &trans               &trans                &trans             &trans                 &trans            &trans              &trans              &trans          &trans           &trans        &trans       &trans
-                &trans        &kp N1               &kp N2                &kp N3             &kp N4                 &kp RA(N5)        &trans              &kp RS(RA(N5))      &kp N7          &kp N1           &kp N9        &kp N0       &trans
-                &trans        &kp RIGHT_BRACKET    &kp LS(RIGHT_BRACKET) &kp RA(N)          &kp NUBS               &kp N5            &trans              &kp MINUS           &kp LS(NUBS)    &kp N6           &kp N8        &kp RA(N7)   &trans
-                &trans        &trans               &trans                &kp RA(N3)         &kp LS(RIGHT_BRACKET)  &kp RA(LS(N5))    &trans              &kp RA(LS(MINUS))   &kp RA(N0)      &kp LS(EQUAL)    &kp LBRC      &kp LS(SQT)  &trans
+                &trans        &kp N1               &kp N2                &kp N3             &kp N4                 &kp RA(N5)        &trans              &kp RA(MINUS)       &kp N7          &kp N8         &kp N9        &kp N0       &trans
+                &trans        &kp RIGHT_BRACKET    &kp LS(RIGHT_BRACKET) &kp N6             &kp N8                 &kp RA(N7)        &trans              &kp MINUS           &kp LS(NUBS)    &kp N6           &kp N8        &kp RA(N7)   &trans
+                &trans        &trans               &trans                &kp LA(N3)         &kp LS(RIGHT_BRACKET)  &kp RA(LS(N5))    &trans              &kp RA(LS(MINUS))   &kp LA(N0)      &kp KP_PLUS     &kp LS(LBRC)  &kp LS(SQT)  &trans
                 &trans        &trans               &trans                &trans             &trans                 &trans            &trans              &trans              &trans          &trans           &trans        &trans
             >;
 
