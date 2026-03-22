@@ -95,9 +95,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
   - {t: 'Sft+]', s: 'Sft+}'}
-  - {t: '6', s: ^}
-  - {t: '8', s: '*'}
-  - {t: AltGr+7, s: AltGr+&}
+  - AltGr+N
+  - NUBS
+  - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - Sft+NUBS
@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+Sft+-, s: AltGr+Sft+_}
   - {t: Alt+0, s: Alt+)}
-  - KP PLUS
-  - Sft+{
+  - {t: Sft+/, s: 'Sft+?'}
+  - {t: '[', s: '{'}
   - {t: Sft+', s: Sft+"}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,9 +151,9 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
