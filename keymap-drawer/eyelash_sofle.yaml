@@ -86,18 +86,18 @@ layers:
   - {t: '4', s: $}
   - {t: AltGr+5, s: AltGr+%}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+AltGr+5, s: Sft+AltGr+%}
+  - {t: AltGr+-, s: AltGr+_}
   - {t: '7', s: '&'}
-  - {t: '1', s: '!'}
+  - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
   - {t: 'Sft+]', s: 'Sft+}'}
-  - AltGr+N
-  - NUBS
-  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '8', s: '*'}
+  - {t: AltGr+7, s: AltGr+&}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - Sft+NUBS
@@ -108,14 +108,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: AltGr+3, s: AltGr+#}
+  - {t: Alt+3, s: Alt+#}
   - {t: 'Sft+]', s: 'Sft+}'}
   - {t: AltGr+Sft+5, s: AltGr+Sft+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+Sft+-, s: AltGr+Sft+_}
-  - {t: AltGr+0, s: AltGr+)}
-  - {t: Sft+=, s: Sft++}
-  - '{'
+  - {t: Alt+0, s: Alt+)}
+  - KP PLUS
+  - Sft+{
   - {t: Sft+', s: Sft+"}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
