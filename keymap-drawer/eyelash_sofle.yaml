@@ -101,9 +101,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - '~'
-  - {t: '6', s: ^}
-  - {t: '8', s: '*'}
-  - {t: AltGr+7, s: AltGr+&}
+  - {t: '=', s: +}
+  - +
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
