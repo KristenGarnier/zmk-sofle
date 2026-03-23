@@ -93,71 +93,71 @@
 
         combo_lb {
             timeout-ms = <30>;
-            key-positions = <29 30>;
-            bindings = <&kp RA(N5)>;       // [
+            key-positions = <42 43>;
+            bindings = <&kp RS(RA(N5))>;       // [
             layers = <0>;
         };
 
         combo_bslash {
             timeout-ms = <30>;
-            key-positions = <28 29>;
-            bindings = <&kp RA(N8)>;       // \
+            key-positions = <41 42>;
+            bindings = <&kp RA(RS(COMMA))>;       // \
             layers = <0>;
         };
 
         combo_lbrace {
             timeout-ms = <30>;
-            key-positions = <3 4>;
-            bindings = <&kp RA(N4)>;       // {
+            key-positions = <16 17>;
+            bindings = <&kp RA(N5)>;       // {
             layers = <0>;
         };
 
         combo_rbrace {
             timeout-ms = <30>;
-            key-positions = <8 9>;
-            bindings = <&kp RA(EQUAL)>;    // }
+            key-positions = <21 22>;
+            bindings = <&kp RA(MINUS)>;    // }
             layers = <0>;
         };
 
         combo_lparen {
             timeout-ms = <30>;
-            key-positions = <16 17>;
+            key-positions = <29 30>;
             bindings = <&kp N5>;           // (
             layers = <0>;
         };
 
         combo_rparen {
             timeout-ms = <30>;
-            key-positions = <22 23>;
+            key-positions = <34 35>;
             bindings = <&kp MINUS>;        // )
             layers = <0>;
         };
 
         combo_lt {
             timeout-ms = <30>;
-            key-positions = <15 16>;
-            bindings = <&kp NUBS>;         // <
+            key-positions = <28 29>;
+            bindings = <&kp GRAVE>;         // <
             layers = <0>;
         };
 
         combo_gt {
             timeout-ms = <30>;
-            key-positions = <23 24>;
-            bindings = <&kp LS(NUBS)>;     // >
+            key-positions = <35 36>;
+            bindings = <&kp TILDE>;     // >
             layers = <0>;
         };
 
         combo_rb {
             timeout-ms = <30>;
-            key-positions = <34 35>;
-            bindings = <&kp RA(MINUS)>;    // ]
+            key-positions = <47 48>;
+            bindings = <&kp RS(RA(MINUS))>;    // ]
             layers = <0>;
         };
 
         combo_pipe {
             timeout-ms = <30>;
-            key-positions = <35 36>;
-            bindings = <&kp RA(N6)>;       // |
+            key-positions = <48 49>;
+            bindings = <&kp RA(LS(L))>;       // |
             layers = <0>;
         };
     };
@@ -181,8 +181,8 @@
             bindings = <
                 &trans        &trans               &trans                &trans             &trans                 &trans            &trans              &trans              &trans          &trans           &trans        &trans       &trans
                 &trans        &kp N1               &kp N2                &kp N3             &kp N4                 &kp RA(N5)        &trans              &kp RA(MINUS)       &kp N7          &kp N8           &kp N9        &kp N0       &trans
-                &trans        &kp RIGHT_BRACKET    &kp LS(RIGHT_BRACKET) &kp RA(N)          &kp NUBS               &kp N5            &trans              &kp MINUS           &kp LS(NUBS)    &kp N6           &kp N8        &kp RA(N7)   &trans
-                &trans        &trans               &trans                &kp LA(N3)         &kp LS(RIGHT_BRACKET)  &kp RA(LS(N5))    &trans              &kp RA(LS(MINUS))   &kp LA(N0)      &kp LS(FSLH)      &kp LEFT_BRACKET  &kp LS(SQT)  &trans
+                &trans        &kp RIGHT_BRACKET    &kp LS(RIGHT_BRACKET) &kp RA(N)          &kp GRAVE              &kp N5            &trans              &kp MINUS           &kp TILDE       &kp N6           &kp N8        &kp RA(N7)   &trans
+                &trans        &trans               &trans                &kp LS(NUBS)         &kp LS(RIGHT_BRACKET) &kp RA(LS(N5))   &trans              &kp RA(LS(MINUS))   &kp NUBS        &kp LS(FSLH)     &kp LEFT_BRACKET  &kp LS(SQT)  &trans
                 &trans        &trans               &trans                &trans             &trans                 &trans            &trans              &trans              &trans          &trans           &trans        &trans
             >;
 
@@ -220,7 +220,7 @@
             bindings = <
                 &trans        &trans              &trans              &trans              &trans              &trans              &trans           &trans              &trans              &trans              &trans              &trans              &trans
                 &trans        &trans              &trans              &trans              &trans              &trans              &trans           &trans              &trans              &trans              &trans              &trans              &trans
-                &trans        &kp N1              &kp N2              &kp N3              &kp N4              &kp N5              &trans           &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &trans
+                &trans        &kp KP_N1           &kp KP_N2           &kp KP_N3           &kp KP_N4           &kp KP_N5           &trans           &kp KP_N6           &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_N0           &trans
                 &trans        &trans              &trans              &trans              &trans              &trans              &trans           &trans              &trans              &trans              &trans              &trans              &trans
                 &trans        &trans              &trans              &trans              &trans              &trans              &trans           &trans              &trans              &trans              &trans              &trans
             >;
