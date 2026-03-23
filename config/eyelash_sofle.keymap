@@ -70,16 +70,90 @@
       };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_lb {
+            timeout-ms = <30>;
+            key-positions = <42 43>;
+            bindings = <&kp RS(RA(N5))>;       // [
+            layers = <0>;
+        };
+
+        combo_bslash {
+            timeout-ms = <30>;
+            key-positions = <41 42>;
+            bindings = <&kp RA(RS(COMMA))>;       // \
+            layers = <0>;
+        };
+
+        combo_lbrace {
+            timeout-ms = <30>;
+            key-positions = <16 17>;
+            bindings = <&kp RA(N5)>;       // {
+            layers = <0>;
+        };
+
+        combo_rbrace {
+            timeout-ms = <30>;
+            key-positions = <21 22>;
+            bindings = <&kp RA(MINUS)>;    // }
+            layers = <0>;
+        };
+
+        combo_lparen {
+            timeout-ms = <30>;
+            key-positions = <29 30>;
+            bindings = <&kp N5>;           // (
+            layers = <0>;
+        };
+
+        combo_rparen {
+            timeout-ms = <30>;
+            key-positions = <34 35>;
+            bindings = <&kp MINUS>;        // )
+            layers = <0>;
+        };
+
+        combo_lt {
+            timeout-ms = <30>;
+            key-positions = <28 29>;
+            bindings = <&kp GRAVE>;         // <
+            layers = <0>;
+        };
+
+        combo_gt {
+            timeout-ms = <30>;
+            key-positions = <35 36>;
+            bindings = <&kp TILDE>;     // >
+            layers = <0>;
+        };
+
+        combo_rb {
+            timeout-ms = <30>;
+            key-positions = <47 48>;
+            bindings = <&kp RS(RA(MINUS))>;    // ]
+            layers = <0>;
+        };
+
+        combo_pipe {
+            timeout-ms = <30>;
+            key-positions = <48 49>;
+            bindings = <&kp RA(LS(L))>;       // |
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1                   &kp N2                         &kp N3                         &kp N4                &kp N5           &kp UP_ARROW     &kp N6        &kp N7                  &kp N8                &kp N9                 &kp N0                      &kp BACKSPACE
-&kp TAB     &kp Q                    &kp W                          &kp E                          &kp R                 &kp T            &kp DOWN_ARROW   &kp Y         &kp U                   &kp I                 &kp O                  &kp P                       &kp BSLH
-&kp LSHFT   &hml LSHFT A             &hml LEFT_ALT S                &hml LEFT_GUI D                &hml LCTRL F  &kp G   &kp LEFT_ARROW   &kp H            &hmr RCTRL J  &hmr RGUI K             &hmr RALT L           &hmr RSHIFT SEMI       &kp APOS
-&kp LSHFT   &kp Z                    &kp X                          &kp C                          &kp V                 &kp B            &kp RIGHT_ARROW  &kp N         &kp M                   &kp COMMA             &kp DOT                &kp FSLH                    &kp RSHIFT
-&kp C_MUTE  &kp LCTRL                &kp LEFT_GUI                   &kp LEFT_ALT                   &mo 1                 &kp SPACE        &kp ENTER        &kp ENTER     &mo 2                   &kp RIGHT_SHIFT       &kp DELETE             &mo 3
+              &kp ESC     &kp N1                   &kp N2                         &kp N3                         &kp N4                &kp N5           &kp UP_ARROW     &kp N6        &kp N7                  &kp N8                &kp N9                 &kp N0                      &kp BACKSPACE
+              &kp TAB     &kp Q                    &kp W                          &kp E                          &kp R                 &kp T            &kp DOWN_ARROW   &kp Y         &kp U                   &kp I                 &kp O                  &kp P                       &kp BSLH
+              &kp LSHFT   &hml LCTRL A             &hml LGUI S                &hml LALT D                &hml LSHFT F  &kp G   &kp LEFT_ARROW   &kp H            &hmr RSHFT J  &hmr RALT K             &hmr RGUI L           &hmr RCTRL SEMI       &kp APOS
+              &kp LSHFT   &kp Z                    &kp X                          &kp C                          &kp V                 &kp B            &kp RIGHT_ARROW  &kp N         &kp M                   &kp COMMA             &kp DOT                &kp FSLH                    &kp RSHIFT
+              &kp C_MUTE  &kp LCTRL                &kp LEFT_GUI                   &kp LEFT_ALT                   &lt 1 ESC                 &kp SPACE        &kp ENTER        &kp ENTER     &mo 2                   &mt RIGHT_SHIFT BACKSPACE       &kp DELETE             &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
