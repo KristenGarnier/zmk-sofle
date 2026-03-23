@@ -28,17 +28,17 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: LGUI}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: RGUI}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: RGUI}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -57,12 +57,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - LAYER1
+  - {t: '$$mdi:keyboard-esc$$', h: LAYER1}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOLS
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:backspace-reverse-outline$$
   - NUMPAD
   LAYER1:
@@ -260,3 +260,34 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [42, 43]
+  k: Sft+AltGr+5
+  l: [LAYER0]
+- p: [41, 42]
+  k: AltGr+Sft+,
+  l: [LAYER0]
+- p: [16, 17]
+  k: AltGr+5
+  l: [LAYER0]
+- p: [21, 22]
+  k: AltGr+-
+  l: [LAYER0]
+- p: [29, 30]
+  k: {t: '5', s: '%'}
+  l: [LAYER0]
+- p: [34, 35]
+  k: {t: '-', s: _}
+  l: [LAYER0]
+- p: [28, 29]
+  k: {t: '`', s: '~'}
+  l: [LAYER0]
+- p: [35, 36]
+  k: '~'
+  l: [LAYER0]
+- p: [47, 48]
+  k: Sft+AltGr+-
+  l: [LAYER0]
+- p: [48, 49]
+  k: AltGr+Sft+L
+  l: [LAYER0]
