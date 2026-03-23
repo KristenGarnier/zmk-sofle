@@ -96,11 +96,11 @@ layers:
   - {t: ']', s: '}'}
   - {t: 'Sft+]', s: 'Sft+}'}
   - AltGr+N
-  - NUBS
+  - {t: '`', s: '~'}
   - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - Sft+NUBS
+  - '~'
   - {t: '6', s: ^}
   - {t: '8', s: '*'}
   - {t: AltGr+7, s: AltGr+&}
@@ -108,12 +108,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+3, s: Alt+#}
+  - Sft+NUBS
   - {t: 'Sft+]', s: 'Sft+}'}
   - {t: AltGr+Sft+5, s: AltGr+Sft+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+Sft+-, s: AltGr+Sft+_}
-  - {t: Alt+0, s: Alt+)}
+  - NUBS
   - {t: Sft+/, s: 'Sft+?'}
   - {t: '[', s: '{'}
   - {t: Sft+', s: Sft+"}
@@ -288,17 +288,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 4
+  - KP 5
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -326,33 +326,33 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [29, 30]
-  k: AltGr+5
+- p: [42, 43]
+  k: Sft+AltGr+5
   l: [NORMAL]
-- p: [28, 29]
-  k: AltGr+8
-  l: [NORMAL]
-- p: [3, 4]
-  k: AltGr+4
-  l: [NORMAL]
-- p: [8, 9]
-  k: AltGr+=
+- p: [41, 42]
+  k: AltGr+Sft+,
   l: [NORMAL]
 - p: [16, 17]
-  k: {t: '5', s: '%'}
+  k: AltGr+5
   l: [NORMAL]
-- p: [22, 23]
-  k: {t: '-', s: _}
-  l: [NORMAL]
-- p: [15, 16]
-  k: NUBS
-  l: [NORMAL]
-- p: [23, 24]
-  k: Sft+NUBS
-  l: [NORMAL]
-- p: [34, 35]
+- p: [21, 22]
   k: AltGr+-
   l: [NORMAL]
+- p: [29, 30]
+  k: {t: '5', s: '%'}
+  l: [NORMAL]
+- p: [34, 35]
+  k: {t: '-', s: _}
+  l: [NORMAL]
+- p: [28, 29]
+  k: {t: '`', s: '~'}
+  l: [NORMAL]
 - p: [35, 36]
-  k: AltGr+6
+  k: '~'
+  l: [NORMAL]
+- p: [47, 48]
+  k: Sft+AltGr+-
+  l: [NORMAL]
+- p: [48, 49]
+  k: AltGr+Sft+L
   l: [NORMAL]
